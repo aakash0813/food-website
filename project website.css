@@ -494,6 +494,92 @@ body::-webkit-scrollbar-track{
 }
 
 
+@media screen and (max-width: 900px) {
+    /* Reduce navbar width and center content */
+    .nav-bar {
+        width: 70%;
+        max-width: 20rem;
+    }
+
+    /* Adjust logo size and center */
+    .logo {
+        width: 80px;
+        margin-left: 35%;
+    }
+
+    /* Make close button more visible */
+    .close {
+        top: 10px;
+        right: 10px;
+        width: 25px;
+    }
+
+    /* Make nav links more compact */
+    .nav-link {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .nav-bar h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* Make mobile navbar smaller */
+    .nav-bar {
+        width: 80%;
+        max-width: 18rem;
+    }
+
+    .logo {
+        width: 70px;
+        margin-left: 38%;
+    }
+
+    /* Smaller nav items */
+    .nav-link {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    /* Adjust menu button placement */
+    .menu {
+        top: 3%;
+        left: 4%;
+        width: 28px;
+    }
+
+    /* Adjust overlay for mobile (so it fits nicely) */
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    /* Make sure everything fits tiny screens */
+    .nav-bar {
+        width: 85%;
+        max-width: 16rem;
+    }
+
+    .nav-link {
+        font-size: 0.85rem;
+        padding: 0.4rem;
+    }
+
+    .logo {
+        width: 60px;
+        margin-left: 40%;
+    }
+
+    .nav-bar h3 {
+        font-size: 1rem;
+    }
+}
+
+
+
 
 /* terminal: fdk create - freshdesk - serverless app - your_first_app (requests.json)
            fdk run */
