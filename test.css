@@ -293,7 +293,7 @@ input::-webkit-outer-spin-button,
   .products {
     grid-template-columns: 50% 50%;
     justify-content: center;
-    column-gap: 200px;
+    column-gap: 40px;
     
   }
 .name{
