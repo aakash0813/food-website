@@ -294,7 +294,7 @@ input::-webkit-outer-spin-button,
     grid-template-columns: 50% 50%;
     justify-content: center;
     column-gap: 40px;
-    margin: 0 auto;
+    margin: auto;
   
     
   }
@@ -311,7 +311,7 @@ input::-webkit-outer-spin-button,
     text-align: center;
     height: 320px;
     width: 180px;
-    margin: 0 auto;
+    margin: auto;
   
   }
   .product button{
