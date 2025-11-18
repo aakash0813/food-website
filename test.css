@@ -293,8 +293,11 @@ input::-webkit-outer-spin-button,
   .products {
     grid-template-columns: 50% 50%;
     justify-content: center;
+    column-gap: 20px;
   }
-
+.name{
+  text-align: center;
+}
   h1 {
     font-size: 32px;
   }
@@ -309,6 +312,7 @@ input::-webkit-outer-spin-button,
   }
 .cart{
   width: 380px;
+  padding-right: 50px;
 }
   .pic img {
     height: 180px;
