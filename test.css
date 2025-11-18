@@ -291,7 +291,7 @@ input::-webkit-outer-spin-button,
 /* Mobile (portrait) */
 @media screen and (max-width: 576px) {
   .products {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   h1 {
@@ -300,15 +300,14 @@ input::-webkit-outer-spin-button,
 
   .product {
     text-align: center;
-     
-  }
-   .container{
-    height: 180px;
+    height: 320px;
     width: 180px;
-   }
+  }
+.cart{
+  width: 418px;
+}
   .pic img {
-   height: 180px;
-    
+    height: 180px;
   }
 
   .placeOrder {
