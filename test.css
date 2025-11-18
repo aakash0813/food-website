@@ -294,9 +294,11 @@ input::-webkit-outer-spin-button,
     grid-template-columns: 50% 50%;
     justify-content: center;
     column-gap: 20px;
+    
   }
 .name{
   text-align: center;
+  margin-left: 50%;
 }
   h1 {
     font-size: 32px;
@@ -308,11 +310,12 @@ input::-webkit-outer-spin-button,
     width: 180px;
     margin-right: none;
     margin-left: 20px;
+    
 
   }
 .cart{
   width: 380px;
-  padding-right: 50px;
+  margin-right: 50px;
 }
   .pic img {
     height: 180px;
