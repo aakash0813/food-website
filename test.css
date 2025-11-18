@@ -329,9 +329,9 @@ input::-webkit-outer-spin-button,
   }
 
   .navbar {
-    top: 20px;
+    top: 20%;
     padding: 15px;
-    max-width: 90%;
+    max-width: 80%;
   }
 
   .close-btn {
