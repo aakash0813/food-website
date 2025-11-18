@@ -310,11 +310,12 @@ input::-webkit-outer-spin-button,
     width: 180px;
     left: 20px;
     right: 15px;
-    
-
+  }
+  .product button{
+    top: 5px;
   }
 .cart{
-  width: 350px;
+  width: 380px;
   margin-right: 50px;
 }
   .pic img {

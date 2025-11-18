@@ -579,7 +579,8 @@ body::-webkit-scrollbar-track{
 }
 @media screen and (max-width: 576px) {
 .contact-info{
-  width: 80%;
+  width: 50%;
+  margin-left: 10px;
 }
 }
 
